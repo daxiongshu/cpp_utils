@@ -1,5 +1,6 @@
 #include "session.h"
 #include <cassert> 
+#include <cstdio>
 
 void split_session(const std::vector<int> session_id, 
                      const std::vector<int> item_id_viewed,

@@ -1,8 +1,8 @@
-import session_split
+from session_split import split_session
 s = [1, 1, 2, 2, 2]
 x = [3, 5, 6, 5, 7]
 y = [6, 6, 8, 8, 8]
-X,Y = session_split.split_session(s,x,y)
+X,Y = split_session(s,x,y)
 print('session')
 print(s)
 print('items viewed')

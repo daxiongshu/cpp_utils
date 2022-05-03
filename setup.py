@@ -9,14 +9,14 @@ except ImportError:
         return cythonize(*args, ** kwargs)
 
 setup(
-    name="session_split",
+    name="cpp_utils",
     author='jiwei',
     setup_requires=[
         'cython',
     ],
     ext_modules=cythonize([
         Extension(
-            'session_split',
+            'cpp_utils',
             sorted(['python/session.pyx','cpp/src/session.cpp']),
             include_dirs=[
                 # c/cpp defination includes folder path

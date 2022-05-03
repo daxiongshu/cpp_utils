@@ -1,4 +1,4 @@
-from session_split import split_session
+from cpp_utils import split_session
 s = [1, 1, 2, 2, 2]
 x = [3, 5, 6, 5, 7]
 y = [6, 6, 8, 8, 8]
